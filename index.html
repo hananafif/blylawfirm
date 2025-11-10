@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlyLawFirm - Solusi Hukum Terpercaya</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/Hero.png">
+  <!-- atau versi .ico -->
+  <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <img src="assets/img/logo.png" alt="Firma Hukum Logo" class="logo">
+
+            <!-- Tombol Hamburger -->
+            <button class="menu-toggle" aria-label="Toggle menu">
+            ☰
+            </button>
+
+            <ul class="nav-links">
+            <li><a href="#hero" class="nav-link">Beranda</a></li>
+            <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+            <li><a href="#services" class="nav-link">Layanan</a></li>
+            <li><a href="#vision" class="nav-link">Visi & Misi</a></li>
+            <li><a href="#team" class="nav-link">Tim</a></li>
+            <li><a href="#contact" class="nav-link">Kontak Kami</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- Added background image to hero section -->
+    <section id="hero" class="hero" style="background: linear-gradient(135deg, rgba(30, 58, 95, 0.85), rgba(45, 90, 140, 0.85)), url('assets/img/Hero.png') center/cover;">
+        <div class="hero-content">
+            <h1 class="hero-title animate-slide-down">Solusi Hukum Terpercaya Untuk Masa Depan Anda</h1>
+            <p class="hero-subtitle animate-slide-up">Firma hukum profesional dengan tim advokat berpengalaman siap memberikan layanan hukum terbaik, cepat, dan terpercaya untuk semua kebutuhan bisnis dan pribadi Anda.</p>
+            <!-- Added secondary button for "Tentang Kami" -->
+            <div class="hero-buttons">
+                <button class="btn btn-primary animate-fade-in" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">Hubungi Kami</button>
+                <button class="btn btn-secondary animate-fade-in" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Tentang Kami</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">Tentang Kami</h2>
+            <p class="section-subtitle">Kantor Hukum Pengacara BLY didirikan di Tangerang Selatan pada tanggal 08 Oktober 2025 dengan visi menjadi kantor hukum yang profesional dan berintegritas. Dengan dukungan para Advokat Senior yang merupakan praktisi sekaligus akademisi yang berpengalaman dan ahli di bidang masing-masing, serta passion dari para Advokat Muda yang visioner dan energik, BLY selalu siap mengemban misi untuk memberikan layanan dan bantuan hukum terbaik kepada siapa pun, baik perseorangan maupun korporasi.</p>
+            
+            <div class="founders-grid">
+                <div class="founder-card fade-in-up">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Dr. Budi Santoso">
+                    <div class="card-content">
+                        <h3>Dr. B. Isnaeni, SH., MH</h3>
+                        <p class="title">Founder & Senior Partner</p>
+                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada nisl odio, nec rutrum dui euismod ac. Mauris eleifend mi sit amet euismod condimentum. Fusce at ante non nunc pellentesque tincidunt.</p>
+                    </div>
+                </div>
+
+                <div class="founder-card fade-in-up">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ibu Siti Nurhaliza">
+                    <div class="card-content">
+                        <h3>Yunanda Afrija, S.H., M.H</h3>
+                        <p class="title">Co-Founder & Legal Advicer</p>
+                        <p class="bio">Berpengalaman sebagai legal di beberapa perusahaan dan law firm yang membidangi hukum pidana, perdata, hukum Perselisihan Hubungan Industrial, hukum waris, hukum keluarga dan hak kekayaan intelektual (HAKI) maupun hukum perusahaan.</p>
+                    </div>
+                </div>
+
+                <div class="founder-card fade-in-up">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ir. Bambang Wijaya">
+                    <div class="card-content">
+                        <h3>Yuliana, S.H., M.H</h3>
+                        <p class="title">Co-Founder & Legal Advicer</p>
+                        <p class="bio">Berpengalaman sebagai legal di beberapa perusahaan dan law firm yang membidangi hukum pidana, perdata, sengketa tanah dan perlindungan konsumen, perlindungan anak dan perempuan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">Layanan Kami</h2>
+            <p class="section-subtitle">Kami menyediakan berbagai layanan hukum komprehensif untuk memenuhi kebutuhan klien</p>
+            
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">⚖️</div>
+                    <h3>Konsultasi Hukum<br>Perdata & Pidana</h3>
+                    <p>Memberikan nasihat hukum strategis untuk berbagai permasalahan bisnis dan pribadi baik penanganan kasus perdata dan pidana</p>
+                </div>
+
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">🏢</div>
+                    <h3>Pendampingan Hukum<br>Bisnis & Korporasi</h3>
+                    <p>Layanan pendampingan penuh untuk operasional dan pengembangan bisnis Anda</p>
+                </div>
+
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">🤝</div>
+                    <h3>Penyelesaian Sengketa,<br>Litigasi & Non-Litigasi</h3>
+                    <p>Penyelesaian sengketa melalui jalur litigasi maupun alternatif penyelesaian sengketa</p>
+                </div>
+
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">📄</div>
+                    <h3>Legal Drafting &<br>Review Dokumen</h3>
+                    <p>Penyusunan dan review dokumen hukum profesional sesuai kebutuhan klien</p>
+                </div>
+
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Hukum<br>Keluarga & Waris</h3>
+                    <p>Penanganan permasalahan keluarga, perkawinan, perceraian, dan warisan</p>
+                </div>
+
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">💼</div>
+                    <h3>Hukum Kepailitan</h3>
+                    <p>Pendampingan dalam proses insolvency dan penyelesaian utang piutang</p>
+                </div>
+
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">⚓</div>
+                    <h3>Hukum Pelayaran</h3>
+                    <p>Layanan khusus untuk masalah hukum maritim dan perdagangan laut</p>
+                </div>
+
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">💰</div>
+                    <h3>Hukum Perpajakan</h3>
+                    <p>Konsultasi dan pendampingan masalah perpajakan perusahaan dan pribadi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="section why-us">
+        <div class="container">
+            <h2 class="section-title">Mengapa Memilih Kami?</h2>
+            
+            <div class="reasons-grid">
+                <div class="reason-card fade-in-up">
+                    <div class="reason-icon">👨‍⚖️</div>
+                    <div>
+                        <h3>Tim Advokat Berpengalaman & Bersertifikat</h3>
+                        <p>Tim kami terdiri dari advokat berpengalaman dengan sertifikasi dari berbagai lembaga hukum terkemuka nasional dan internasional.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card fade-in-up">
+                    <div class="reason-icon">🎯</div>
+                    <div>
+                        <h3>Pendekatan Personal & Solusi Tepat Sasaran</h3>
+                        <p>Kami memahami setiap kasus unik dan memberikan solusi yang disesuaikan dengan kebutuhan spesifik setiap klien.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card fade-in-up">
+                    <div class="reason-icon">💎</div>
+                    <div>
+                        <h3>Transparansi Biaya & Proses</h3>
+                        <p>Biaya jelas dan transparan, tanpa biaya tersembunyi. Anda akan selalu tahu perkembangan kasus Anda.</p>
+                    </div>
+                </div>
+
+                <div class="reason-card fade-in-up">
+                    <div class="reason-icon">🔒</div>
+                    <div>
+                        <h3>Komitmen pada Kerahasiaan & Etika</h3>
+                        <p>Kerahasiaan klien adalah prioritas utama kami. Kami menjunjung tinggi etika profesi advokat dalam setiap tindakan.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight-box fade-in-up">
+                <p>Kami tidak hanya memberikan nasihat hukum—kami menjadi bagian dari solusi Anda. Hubungi kami hari ini dan rasakan layanan hukum yang profesional, cepat, dan terpercaya.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section id="vision" class="section vision-mission">
+        <div class="container">
+            <h2 class="section-title">Visi & Misi Kami</h2>
+            
+            <div class="vision-mission-grid">
+                <div class="vision-box fade-in-up">
+                    <h3>Visi</h3>
+                    <p>Menjadi firma hukum yang profesional, berintegritas, dan berkeadilan, memberikan solusi hukum terbaik dalam membela hak-hak klien serta menegakkan hukum demi terciptanya keadilan dan kepastian hukum bagi seluruh lapisan masyarakat.</p>
+                </div>
+
+                <div class="mission-box fade-in-up">
+                    <h3>Misi</h3>
+                    <ol class="mission-list">
+                        <li>Memberikan layanan hukum yang berkualitas, transparan, dan bertanggung jawab kepada setiap klien.</li>
+                        <li>Menjunjung tinggi etika profesi dan prinsip keadilan dalam setiap tindakan hukum.</li>
+                        <li>Meningkatkan pengetahuan dan keterampilan hukum secara berkelanjutan untuk menghadapi dinamika hukum yang berkembang.</li>
+                        <li>Berperan aktif dalam edukasi hukum kepada masyarakat agar lebih sadar dan paham akan hak dan kewajibannya.</li>
+                        <li>Menjadi mitra strategis dalam penyelesaian sengketa secara efektif, efisien, dan bermartabat.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Scope Section -->
+    <section id="scope" class="section service-scope">
+        <div class="container">
+            <h2 class="section-title">Ruang Lingkup Pelayanan</h2>
+            <p class="section-subtitle">Kami menyediakan berbagai metode penyelesaian sengketa untuk memastikan hasil yang optimal</p>
+            
+            <div class="scope-grid">
+                <div class="scope-card fade-in-up">
+                    <div class="scope-icon">💬</div>
+                    <h3>Negosiasi</h3>
+                    <p>Proses diskusi langsung antara pihak-pihak yang berkonflik untuk mencapai kesepakatan bersama.</p>
+                </div>
+
+                <div class="scope-card fade-in-up">
+                    <div class="scope-icon">🤲</div>
+                    <h3>Mediasi</h3>
+                    <p>Melibatkan pihak ketiga netral yang membantu memfasilitasi penyelesaian konflik.</p>
+                </div>
+
+                <div class="scope-card fade-in-up">
+                    <div class="scope-icon">⚔️</div>
+                    <h3>Arbitrase</h3>
+                    <p>Pihak ketiga membuat keputusan yang mengikat setelah mendengarkan argumen dari kedua belah pihak.</p>
+                </div>
+
+                <div class="scope-card fade-in-up">
+                    <div class="scope-icon">🏳️</div>
+                    <h3>Kompromi</h3>
+                    <p>Kedua pihak saling mengalah untuk mencapai solusi yang dapat diterima bersama.</p>
+                </div>
+
+                <div class="scope-card fade-in-up">
+                    <div class="scope-icon">🤝</div>
+                    <h3>Kolaborasi</h3>
+                    <p>Pihak-pihak yang terlibat bekerja sama untuk menemukan solusi yang memuaskan semua pihak.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <!-- Extended team to 12 members with expand/collapse functionality, shows 4 initially -->
+    <section id="team" class="section team">
+        <div class="container">
+            <h2 class="section-title">Tim Kami</h2>
+            <p class="section-subtitle">Tim profesional yang berpengalaman dan berdedikasi untuk kesuksesan Anda</p>
+            
+            <div class="team-grid" id="teamGrid">
+                <div class="team-card fade-in-up">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Dr. Budi Santoso">
+                    <h3>Ali Bachtiar S.H., M.H</h3>
+                    <p>Legal Advicer</p>
+                </div>
+
+                <div class="team-card fade-in-up">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ibu Siti Nurhaliza">
+                    <h3>Dominggus Tobu Sahnitan S.H</h3>
+                    <p>Legal Advicer</p>
+                </div>
+
+                <div class="team-card fade-in-up">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ir. Bambang Wijaya">
+                    <h3>Topan Prabowo S.H</h3>
+                    <p>Legal Advicer</p>
+                </div>
+
+                <div class="team-card fade-in-up">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Drs. Ahmad Hermawan">
+                    <h3>Eriyanto Agna Suprajana S.H., M.H., MNLP</h3>
+                    <p>Legal Advicer</p>
+                </div>
+
+                <div class="team-card fade-in-up team-card-hidden">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ibu Ratna Dewi">
+                    <h3>Dr. Dodi Sugianto S.H., M.H., M.Kn</h3>
+                    <p>Legal Advicer</p>
+                </div>
+
+                <div class="team-card fade-in-up team-card-hidden">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Bambang Kristono">
+                    <h3>Dr. Kartono, S.H.I., M.H</h3>
+                    <p>Legal Advicer</p>
+                </div>
+
+                <div class="team-card fade-in-up team-card-hidden">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ibu Eka Putri">
+                    <h3>Dr. Edi Sofwan, S.H.I., M.H</h3>
+                    <p>Legal Advicer</p>
+                </div>
+
+                <div class="team-card fade-in-up team-card-hidden">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Drs. Rudi Hartono">
+                    <h3>Dr. Ricci, S.H., M.H., C.L.A</h3>
+                    <p>Legal Advicer / Kurator</p>
+                </div>
+
+                <div class="team-card fade-in-up team-card-hidden">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ibu Dewi Lestari">
+                    <h3>Sri Sugiharti, S.M., S.H., M.M., M.H</h3>
+                    <p>Legal Advicer</p>
+                </div>
+
+                <div class="team-card fade-in-up team-card-hidden">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Bambang Suryanto">
+                    <h3>Siti Dwinami D Nasution, S.M., M.H</h3>
+                    <p>Para Legal</p>
+                </div>
+
+                <div class="team-card fade-in-up team-card-hidden">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ibu Siti Rahayu">
+                    <h3>Rizky MS, S.H.,M.H</h3>
+                    <p>Para Legal</p>
+                </div>
+
+                <div class="team-card fade-in-up team-card-hidden">
+                    <img src="assets/img/professional-lawyer-man-1.jpg" alt="Ahmad Maulana">
+                    <h3>Siti Nur Hoca, S.H</h3>
+                    <p>Para Legal</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="btn btn-expand" id="expandBtn" onclick="toggleTeam()">Lihat Semua Tim</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p class="section-subtitle">Siap membantu Anda dengan segala permasalahan hukum. Hubungi kami sekarang juga.</p>
+            
+            <div class="contact-info-grid">
+                <div class="contact-info-card fade-in-up">
+                    <div class="info-icon">📞</div>
+                    <h3>Telepon</h3>
+                    <p>Nanda : 0815-2921-0259</p>
+                    <p>Yuli : 0851-2619-2088</p>
+                </div>
+
+                <div class="contact-info-card fade-in-up">
+                    <div class="info-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>blylawfirm@gmail.com</p>
+                </div>
+
+                <div class="contact-info-card fade-in-up">
+                    <div class="info-icon">📍</div>
+                    <h3>Alamat</h3>
+                    <p>Ruko Silktown Avenue Blok.RK/5A-05, Pd. Jagung Timur</p>
+                    <p>Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15326</p>
+                </div>
+            </div>
+
+            <form class="contact-form fade-in-up">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="email@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Nomor Telepon</label>
+                    <input type="tel" id="phone" placeholder="(021) 1234-5678" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>Firma Hukum</h3>
+        <p>Solusi hukum profesional, cepat, dan terpercaya untuk semua kebutuhan Anda.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Layanan</h4>
+        <ul>
+          <li><a href="#services">Konsultasi Hukum</a></li>
+          <li><a href="#services">Litigasi</a></li>
+          <li><a href="#services">Legal Drafting</a></li>
+          <li><a href="#services">Hukum Bisnis</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Perusahaan</h4>
+        <ul>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#team">Tim Kami</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontak</h4>
+        <ul>
+          <li>Telepon: (021) 5555-0123</li>
+          <li>Email: info@firmahukum.com</li>
+          <li>Alamat: Jl. Sudirman No. 123</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Firma Hukum. Semua hak dilindungi undang-undang.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  // 1️⃣ Inisialisasi Public Key kamu
+  (function() {
+    emailjs.init("bz-H4h5MnCb2l6jtD"); // Public key kamu, sudah benar
+  })();
+
+  // 2️⃣ Tangkap form
+  const contactForm = document.querySelector(".contact-form");
+  if (contactForm) {
+    contactForm.addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      // 3️⃣ Ambil data form
+      const templateParams = {
+        from_name: document.getElementById("name").value,
+        from_email: document.getElementById("email").value,
+        phone: document.getElementById("phone").value,
+        message: document.getElementById("message").value,
+        time: new Date().toLocaleString("id-ID", { 
+          dateStyle: "full", 
+          timeStyle: "short" 
+        })
+      };
+
+      // 4️⃣ Kirim email
+      emailjs.send(
+        "service_qawrl2s",        // 🔹 Ganti dengan Service ID kamu dari EmailJS
+        "template_rt32vn9",       // 🔹 Ganti dengan Template ID kamu
+        templateParams,
+        "bz-H4h5MnCb2l6jtD"       // 🔹 Public key kamu (harus sama)
+      )
+      .then(function(response) {
+        console.log("SUCCESS!", response.status, response.text);
+        alert("✅ Terima kasih! Pesan Anda telah terkirim.");
+        contactForm.reset();
+      }, function(error) {
+        console.error("EmailJS error:", error);
+        alert("❌ Gagal mengirim pesan. Silakan coba lagi.\n\n" + JSON.stringify(error));
+      });
+    });
+  }
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
