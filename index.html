@@ -443,7 +443,7 @@
 <script>
   // 1️⃣ Inisialisasi Public Key kamu
   (function() {
-    emailjs.init("bz-H4h5MnCb2l6jtD"); // Public key kamu, sudah benar
+    emailjs.init("EfKx4qpU1TzR9ifz2"); // Public key kamu, sudah benar
   })();
 
   // 2️⃣ Tangkap form
@@ -466,10 +466,10 @@
 
       // 4️⃣ Kirim email
       emailjs.send(
-        "service_qawrl2s",        // 🔹 Ganti dengan Service ID kamu dari EmailJS
-        "template_rt32vn9",       // 🔹 Ganti dengan Template ID kamu
+        "service_d26eptg",        // 🔹 Ganti dengan Service ID kamu dari EmailJS
+        "template_k46uxut",       // 🔹 Ganti dengan Template ID kamu
         templateParams,
-        "bz-H4h5MnCb2l6jtD"       // 🔹 Public key kamu (harus sama)
+        "EfKx4qpU1TzR9ifz2"       // 🔹 Public key kamu (harus sama)
       )
       .then(function(response) {
         console.log("SUCCESS!", response.status, response.text);
