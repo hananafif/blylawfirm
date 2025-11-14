@@ -61,9 +61,8 @@ body {
   height: 70px;
 }
 
-/* DARK MODE */
 @media (prefers-color-scheme: dark) {
-    .logo .logo-path {
+    .logo {
         content: url("assets/img/logo-putih.svg");
     }
 }
