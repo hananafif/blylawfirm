@@ -888,7 +888,7 @@ body {
   border-radius: 12px;
   border: 1px solid var(--medium-gray);
   max-width: 100%;
-  margin: 0 auto;
+  
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -944,6 +944,72 @@ body {
   width: 100%;
   margin-top: 10px;
 }
+
+/* Grid 3 atas (tetap sama) */
+.top-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+/* Grid 2 bawah */
+.contact-bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+/* WA Card */
+.wa-card {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wa-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(59, 130, 246, 0.15);
+  border-color: var(--accent);
+}
+
+/* WA Button */
+.btn-wa {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: #25D366; /* hijau WA */
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-wa:hover {
+  background-color: #1ebe5d;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .contact-bottom-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .top-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-bottom-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 /* Footer */
 .footer {
