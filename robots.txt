@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blylawfirm.legal/sitemap.xml
